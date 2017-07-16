@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5C5F6BB1F1BB346001DA830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5F6BA1F1BB346001DA830 /* AppDelegate.swift */; };
+		B5C5F6BD1F1BB346001DA830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5F6BC1F1BB346001DA830 /* ViewController.swift */; };
+		B5C5F6C01F1BB346001DA830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C5F6BE1F1BB346001DA830 /* Main.storyboard */; };
+		B5C5F6C21F1BB346001DA830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C5F6C11F1BB346001DA830 /* Assets.xcassets */; };
+		B5C5F6C51F1BB346001DA830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C5F6C31F1BB346001DA830 /* LaunchScreen.storyboard */; };
+		B5C5F6D01F1BB346001DA830 /* WorldPainterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5F6CF1F1BB346001DA830 /* WorldPainterTests.swift */; };
+		B5C5F6DB1F1BB346001DA830 /* WorldPainterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5F6DA1F1BB346001DA830 /* WorldPainterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5C5F6CC1F1BB346001DA830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5C5F6AF1F1BB346001DA830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C5F6B61F1BB346001DA830;
+			remoteInfo = WorldPainter;
+		};
+		B5C5F6D71F1BB346001DA830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5C5F6AF1F1BB346001DA830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C5F6B61F1BB346001DA830;
+			remoteInfo = WorldPainter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5C5F6B71F1BB346001DA830 /* WorldPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C5F6BA1F1BB346001DA830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5C5F6BC1F1BB346001DA830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5C5F6BF1F1BB346001DA830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5C5F6C11F1BB346001DA830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5C5F6C41F1BB346001DA830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5C5F6C61F1BB346001DA830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C5F6CB1F1BB346001DA830 /* WorldPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C5F6CF1F1BB346001DA830 /* WorldPainterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldPainterTests.swift; sourceTree = "<group>"; };
+		B5C5F6D11F1BB346001DA830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C5F6D61F1BB346001DA830 /* WorldPainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldPainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C5F6DA1F1BB346001DA830 /* WorldPainterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldPainterUITests.swift; sourceTree = "<group>"; };
+		B5C5F6DC1F1BB346001DA830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5C5F6B41F1BB346001DA830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C5F6C81F1BB346001DA830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C5F6D31F1BB346001DA830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5C5F6AE1F1BB346001DA830 = {
+			isa = PBXGroup;
+			children = (
+				B5C5F6B91F1BB346001DA830 /* WorldPainter */,
+				B5C5F6CE1F1BB346001DA830 /* WorldPainterTests */,
+				B5C5F6D91F1BB346001DA830 /* WorldPainterUITests */,
+				B5C5F6B81F1BB346001DA830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5C5F6B81F1BB346001DA830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5C5F6B71F1BB346001DA830 /* WorldPainter.app */,
+				B5C5F6CB1F1BB346001DA830 /* WorldPainterTests.xctest */,
+				B5C5F6D61F1BB346001DA830 /* WorldPainterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5C5F6B91F1BB346001DA830 /* WorldPainter */ = {
+			isa = PBXGroup;
+			children = (
+				B5C5F6BA1F1BB346001DA830 /* AppDelegate.swift */,
+				B5C5F6BC1F1BB346001DA830 /* ViewController.swift */,
+				B5C5F6BE1F1BB346001DA830 /* Main.storyboard */,
+				B5C5F6C11F1BB346001DA830 /* Assets.xcassets */,
+				B5C5F6C31F1BB346001DA830 /* LaunchScreen.storyboard */,
+				B5C5F6C61F1BB346001DA830 /* Info.plist */,
+			);
+			path = WorldPainter;
+			sourceTree = "<group>";
+		};
+		B5C5F6CE1F1BB346001DA830 /* WorldPainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5C5F6CF1F1BB346001DA830 /* WorldPainterTests.swift */,
+				B5C5F6D11F1BB346001DA830 /* Info.plist */,
+			);
+			path = WorldPainterTests;
+			sourceTree = "<group>";
+		};
+		B5C5F6D91F1BB346001DA830 /* WorldPainterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5C5F6DA1F1BB346001DA830 /* WorldPainterUITests.swift */,
+				B5C5F6DC1F1BB346001DA830 /* Info.plist */,
+			);
+			path = WorldPainterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5C5F6B61F1BB346001DA830 /* WorldPainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C5F6DF1F1BB346001DA830 /* Build configuration list for PBXNativeTarget "WorldPainter" */;
+			buildPhases = (
+				B5C5F6B31F1BB346001DA830 /* Sources */,
+				B5C5F6B41F1BB346001DA830 /* Frameworks */,
+				B5C5F6B51F1BB346001DA830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldPainter;
+			productName = WorldPainter;
+			productReference = B5C5F6B71F1BB346001DA830 /* WorldPainter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5C5F6CA1F1BB346001DA830 /* WorldPainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C5F6E21F1BB346001DA830 /* Build configuration list for PBXNativeTarget "WorldPainterTests" */;
+			buildPhases = (
+				B5C5F6C71F1BB346001DA830 /* Sources */,
+				B5C5F6C81F1BB346001DA830 /* Frameworks */,
+				B5C5F6C91F1BB346001DA830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5C5F6CD1F1BB346001DA830 /* PBXTargetDependency */,
+			);
+			name = WorldPainterTests;
+			productName = WorldPainterTests;
+			productReference = B5C5F6CB1F1BB346001DA830 /* WorldPainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5C5F6D51F1BB346001DA830 /* WorldPainterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C5F6E51F1BB346001DA830 /* Build configuration list for PBXNativeTarget "WorldPainterUITests" */;
+			buildPhases = (
+				B5C5F6D21F1BB346001DA830 /* Sources */,
+				B5C5F6D31F1BB346001DA830 /* Frameworks */,
+				B5C5F6D41F1BB346001DA830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5C5F6D81F1BB346001DA830 /* PBXTargetDependency */,
+			);
+			name = WorldPainterUITests;
+			productName = WorldPainterUITests;
+			productReference = B5C5F6D61F1BB346001DA830 /* WorldPainterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5C5F6AF1F1BB346001DA830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Bennett Rasmussen";
+				TargetAttributes = {
+					B5C5F6B61F1BB346001DA830 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					B5C5F6CA1F1BB346001DA830 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = B5C5F6B61F1BB346001DA830;
+					};
+					B5C5F6D51F1BB346001DA830 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = B5C5F6B61F1BB346001DA830;
+					};
+				};
+			};
+			buildConfigurationList = B5C5F6B21F1BB346001DA830 /* Build configuration list for PBXProject "WorldPainter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5C5F6AE1F1BB346001DA830;
+			productRefGroup = B5C5F6B81F1BB346001DA830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5C5F6B61F1BB346001DA830 /* WorldPainter */,
+				B5C5F6CA1F1BB346001DA830 /* WorldPainterTests */,
+				B5C5F6D51F1BB346001DA830 /* WorldPainterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5C5F6B51F1BB346001DA830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C5F6C51F1BB346001DA830 /* LaunchScreen.storyboard in Resources */,
+				B5C5F6C21F1BB346001DA830 /* Assets.xcassets in Resources */,
+				B5C5F6C01F1BB346001DA830 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C5F6C91F1BB346001DA830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C5F6D41F1BB346001DA830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5C5F6B31F1BB346001DA830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C5F6BD1F1BB346001DA830 /* ViewController.swift in Sources */,
+				B5C5F6BB1F1BB346001DA830 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C5F6C71F1BB346001DA830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C5F6D01F1BB346001DA830 /* WorldPainterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C5F6D21F1BB346001DA830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C5F6DB1F1BB346001DA830 /* WorldPainterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5C5F6CD1F1BB346001DA830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C5F6B61F1BB346001DA830 /* WorldPainter */;
+			targetProxy = B5C5F6CC1F1BB346001DA830 /* PBXContainerItemProxy */;
+		};
+		B5C5F6D81F1BB346001DA830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C5F6B61F1BB346001DA830 /* WorldPainter */;
+			targetProxy = B5C5F6D71F1BB346001DA830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5C5F6BE1F1BB346001DA830 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C5F6BF1F1BB346001DA830 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5C5F6C31F1BB346001DA830 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C5F6C41F1BB346001DA830 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5C5F6DD1F1BB346001DA830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5C5F6DE1F1BB346001DA830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5C5F6E01F1BB346001DA830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9BD5CYJ2VD;
+				INFOPLIST_FILE = WorldPainter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.WorldPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5C5F6E11F1BB346001DA830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9BD5CYJ2VD;
+				INFOPLIST_FILE = WorldPainter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.WorldPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5C5F6E31F1BB346001DA830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9BD5CYJ2VD;
+				INFOPLIST_FILE = WorldPainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.WorldPainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldPainter.app/WorldPainter";
+			};
+			name = Debug;
+		};
+		B5C5F6E41F1BB346001DA830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9BD5CYJ2VD;
+				INFOPLIST_FILE = WorldPainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.WorldPainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldPainter.app/WorldPainter";
+			};
+			name = Release;
+		};
+		B5C5F6E61F1BB346001DA830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9BD5CYJ2VD;
+				INFOPLIST_FILE = WorldPainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.WorldPainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldPainter;
+			};
+			name = Debug;
+		};
+		B5C5F6E71F1BB346001DA830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9BD5CYJ2VD;
+				INFOPLIST_FILE = WorldPainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.WorldPainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldPainter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5C5F6B21F1BB346001DA830 /* Build configuration list for PBXProject "WorldPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C5F6DD1F1BB346001DA830 /* Debug */,
+				B5C5F6DE1F1BB346001DA830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C5F6DF1F1BB346001DA830 /* Build configuration list for PBXNativeTarget "WorldPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C5F6E01F1BB346001DA830 /* Debug */,
+				B5C5F6E11F1BB346001DA830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5C5F6E21F1BB346001DA830 /* Build configuration list for PBXNativeTarget "WorldPainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C5F6E31F1BB346001DA830 /* Debug */,
+				B5C5F6E41F1BB346001DA830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5C5F6E51F1BB346001DA830 /* Build configuration list for PBXNativeTarget "WorldPainterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C5F6E61F1BB346001DA830 /* Debug */,
+				B5C5F6E71F1BB346001DA830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5C5F6AF1F1BB346001DA830 /* Project object */;
+}
