@@ -5,4 +5,4 @@ Eventually want to create a full painting experience but I just started learning
 
 Here's some lava floating over my laundry
 
-![gif](https://github.com/bibyzan/ARWorldPainter/blob/master/output.gif?raw=true)
+![gif](https://github.com/bibyzan/ARWorldPainter/blob/master/demo.gif?raw=true)
