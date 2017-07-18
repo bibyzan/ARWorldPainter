@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +12,102 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WorldPainter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="86c-fz-ccZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZK-a7-hg2">
+                                <rect key="frame" x="142" y="557" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="f0D-Di-wUd"/>
+                                    <constraint firstAttribute="width" constant="90" id="yMx-oY-spU"/>
+                                </constraints>
+                                <state key="normal" image="paintbrush.png"/>
+                                <connections>
+                                    <action selector="endPaintingTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cIt-Sh-dd7"/>
+                                    <action selector="startPaintingTouch:" destination="BYZ-38-t0r" eventType="touchDown" id="GkK-mc-cPv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdz-9O-cXs">
+                                <rect key="frame" x="309" y="597" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="WA0-vR-C9v"/>
+                                    <constraint firstAttribute="width" constant="50" id="ehF-cZ-YH6"/>
+                                </constraints>
+                                <state key="normal" image="paintpallete.png"/>
+                                <connections>
+                                    <action selector="changeColorTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dgv-Nx-MwT"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".25m" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Br4-Xb-XZy">
+                                <rect key="frame" x="93" y="490" width="188" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="B7S-gW-O0D"/>
+                                    <constraint firstAttribute="width" constant="188" id="dbO-p7-GGB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.050000000000000003" minValue="0.0" maxValue="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="68L-oJ-GzW">
+                                <rect key="frame" x="106" y="519" width="162" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LCa-TS-eZf"/>
+                                    <constraint firstAttribute="width" constant="158" id="pf5-WE-07y"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="paintSizeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="jxj-O0-uCC"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWW-lb-OPm">
+                                <rect key="frame" x="309" y="526" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="UmL-l3-GyL"/>
+                                    <constraint firstAttribute="height" constant="50" id="q6U-vQ-uq0"/>
+                                </constraints>
+                                <state key="normal" image="resize.png"/>
+                                <connections>
+                                    <action selector="changeBrushSizeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hxN-NG-adZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="86c-fz-ccZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5ik-PK-Fcf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KZK-a7-hg2" secondAttribute="bottom" constant="20" id="6Ri-7m-cZE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IWW-lb-OPm" secondAttribute="trailing" constant="16" id="8KA-1v-IxH"/>
+                            <constraint firstItem="KZK-a7-hg2" firstAttribute="top" secondItem="68L-oJ-GzW" secondAttribute="bottom" constant="8" id="8lf-CH-84j"/>
+                            <constraint firstItem="86c-fz-ccZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="99V-zb-guy"/>
+                            <constraint firstItem="86c-fz-ccZ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="JdG-Zm-Akz"/>
+                            <constraint firstItem="86c-fz-ccZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PvU-E3-UVR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gdz-9O-cXs" secondAttribute="bottom" constant="20" id="Qx5-n3-3m3"/>
+                            <constraint firstItem="Gdz-9O-cXs" firstAttribute="top" secondItem="IWW-lb-OPm" secondAttribute="bottom" constant="21" id="X49-T8-D3C"/>
+                            <constraint firstItem="68L-oJ-GzW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gWg-Mh-yQU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gdz-9O-cXs" secondAttribute="trailing" constant="16" id="h8H-Tj-4YU"/>
+                            <constraint firstItem="68L-oJ-GzW" firstAttribute="top" secondItem="Br4-Xb-XZy" secondAttribute="bottom" constant="8" id="hhZ-jg-hte"/>
+                            <constraint firstItem="KZK-a7-hg2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rN8-kF-mc3"/>
+                            <constraint firstItem="Br4-Xb-XZy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xus-hQ-5Re"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="paintSlider" destination="68L-oJ-GzW" id="Byf-KW-X5n"/>
+                        <outlet property="sceneView" destination="86c-fz-ccZ" id="YIl-b4-KBE"/>
+                        <outlet property="sizeLabel" destination="Br4-Xb-XZy" id="opl-qo-S6j"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="paintbrush.png" width="128" height="128"/>
+        <image name="paintpallete.png" width="128" height="128"/>
+        <image name="resize.png" width="128" height="128"/>
+    </resources>
 </document>

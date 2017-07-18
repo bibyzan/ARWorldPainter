@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680233CC2EEBC6BEB129F0C1 /* Pods_WorldPainter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB830FF23A5A59A501A5AA3 /* Pods_WorldPainter.framework */; };
+		AD4E7E64DD2799EB7996B530 /* Pods_WorldPainterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846C51152BEBD326C84BEBE5 /* Pods_WorldPainterTests.framework */; };
 		B5C5F6BB1F1BB346001DA830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5F6BA1F1BB346001DA830 /* AppDelegate.swift */; };
 		B5C5F6BD1F1BB346001DA830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5F6BC1F1BB346001DA830 /* ViewController.swift */; };
 		B5C5F6C01F1BB346001DA830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C5F6BE1F1BB346001DA830 /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		B5C5F6C51F1BB346001DA830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C5F6C31F1BB346001DA830 /* LaunchScreen.storyboard */; };
 		B5C5F6D01F1BB346001DA830 /* WorldPainterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5F6CF1F1BB346001DA830 /* WorldPainterTests.swift */; };
 		B5C5F6DB1F1BB346001DA830 /* WorldPainterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5F6DA1F1BB346001DA830 /* WorldPainterUITests.swift */; };
+		B5C5F6E91F1BEEEB001DA830 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C5F6E81F1BEEEB001DA830 /* Models.scnassets */; };
+		B5C5F6EC1F1C3888001DA830 /* paintbrush.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C5F6EB1F1C3888001DA830 /* paintbrush.png */; };
+		B5C5F6EE1F1C38EE001DA830 /* paintpallete.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C5F6ED1F1C38EE001DA830 /* paintpallete.png */; };
+		B5C5F6F01F1C4631001DA830 /* resize.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C5F6EF1F1C4631001DA830 /* resize.png */; };
+		D27FAD213CF73DA1620898A1 /* Pods_WorldPainterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0881A1D3CC4CA1057AD25B49 /* Pods_WorldPainterUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0881A1D3CC4CA1057AD25B49 /* Pods_WorldPainterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldPainterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		143D99C4AF9CD32550F7E48E /* Pods-WorldPainterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldPainterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorldPainterUITests/Pods-WorldPainterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D9C3874956A16E4147E488C /* Pods-WorldPainterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldPainterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorldPainterUITests/Pods-WorldPainterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F259957D0054F2709D5005D /* Pods-WorldPainter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldPainter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorldPainter/Pods-WorldPainter.debug.xcconfig"; sourceTree = "<group>"; };
+		4DB830FF23A5A59A501A5AA3 /* Pods_WorldPainter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldPainter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		846C51152BEBD326C84BEBE5 /* Pods_WorldPainterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldPainterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B058B4067F2832EB76D2C526 /* Pods-WorldPainterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldPainterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorldPainterTests/Pods-WorldPainterTests.release.xcconfig"; sourceTree = "<group>"; };
 		B5C5F6B71F1BB346001DA830 /* WorldPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C5F6BA1F1BB346001DA830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5C5F6BC1F1BB346001DA830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,12 @@
 		B5C5F6D61F1BB346001DA830 /* WorldPainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldPainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C5F6DA1F1BB346001DA830 /* WorldPainterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldPainterUITests.swift; sourceTree = "<group>"; };
 		B5C5F6DC1F1BB346001DA830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C5F6E81F1BEEEB001DA830 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = Models.scnassets; path = ../../../../Downloads/Models.scnassets; sourceTree = "<group>"; };
+		B5C5F6EB1F1C3888001DA830 /* paintbrush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paintbrush.png; path = ../../../../../Downloads/paintbrush.png; sourceTree = "<group>"; };
+		B5C5F6ED1F1C38EE001DA830 /* paintpallete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paintpallete.png; path = ../../../../../Downloads/paintpallete.png; sourceTree = "<group>"; };
+		B5C5F6EF1F1C4631001DA830 /* resize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resize.png; path = ../../../../../Downloads/resize.png; sourceTree = "<group>"; };
+		CDC8EEE8276B18D5871BA372 /* Pods-WorldPainter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldPainter.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorldPainter/Pods-WorldPainter.release.xcconfig"; sourceTree = "<group>"; };
+		F2176AE7D7DF9DFAE936FDDF /* Pods-WorldPainterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldPainterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorldPainterTests/Pods-WorldPainterTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680233CC2EEBC6BEB129F0C1 /* Pods_WorldPainter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD4E7E64DD2799EB7996B530 /* Pods_WorldPainterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D27FAD213CF73DA1620898A1 /* Pods_WorldPainterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A8EFD2126F66BA7A2EDBD23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DB830FF23A5A59A501A5AA3 /* Pods_WorldPainter.framework */,
+				846C51152BEBD326C84BEBE5 /* Pods_WorldPainterTests.framework */,
+				0881A1D3CC4CA1057AD25B49 /* Pods_WorldPainterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5C5F6AE1F1BB346001DA830 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +114,8 @@
 				B5C5F6CE1F1BB346001DA830 /* WorldPainterTests */,
 				B5C5F6D91F1BB346001DA830 /* WorldPainterUITests */,
 				B5C5F6B81F1BB346001DA830 /* Products */,
+				E559DDE94EA1A577E07DF01E /* Pods */,
+				1A8EFD2126F66BA7A2EDBD23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +132,8 @@
 		B5C5F6B91F1BB346001DA830 /* WorldPainter */ = {
 			isa = PBXGroup;
 			children = (
+				B5C5F6EA1F1C3867001DA830 /* assets */,
+				B5C5F6E81F1BEEEB001DA830 /* Models.scnassets */,
 				B5C5F6BA1F1BB346001DA830 /* AppDelegate.swift */,
 				B5C5F6BC1F1BB346001DA830 /* ViewController.swift */,
 				B5C5F6BE1F1BB346001DA830 /* Main.storyboard */,
@@ -125,6 +162,29 @@
 			path = WorldPainterUITests;
 			sourceTree = "<group>";
 		};
+		B5C5F6EA1F1C3867001DA830 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				B5C5F6EB1F1C3888001DA830 /* paintbrush.png */,
+				B5C5F6ED1F1C38EE001DA830 /* paintpallete.png */,
+				B5C5F6EF1F1C4631001DA830 /* resize.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		E559DDE94EA1A577E07DF01E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F259957D0054F2709D5005D /* Pods-WorldPainter.debug.xcconfig */,
+				CDC8EEE8276B18D5871BA372 /* Pods-WorldPainter.release.xcconfig */,
+				F2176AE7D7DF9DFAE936FDDF /* Pods-WorldPainterTests.debug.xcconfig */,
+				B058B4067F2832EB76D2C526 /* Pods-WorldPainterTests.release.xcconfig */,
+				2D9C3874956A16E4147E488C /* Pods-WorldPainterUITests.debug.xcconfig */,
+				143D99C4AF9CD32550F7E48E /* Pods-WorldPainterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5C5F6DF1F1BB346001DA830 /* Build configuration list for PBXNativeTarget "WorldPainter" */;
 			buildPhases = (
+				160851C617B61DB9A85CAD86 /* [CP] Check Pods Manifest.lock */,
 				B5C5F6B31F1BB346001DA830 /* Sources */,
 				B5C5F6B41F1BB346001DA830 /* Frameworks */,
 				B5C5F6B51F1BB346001DA830 /* Resources */,
+				91F4B6B3B3E8820451A81B61 /* [CP] Embed Pods Frameworks */,
+				E066D83D69CAD92AA4274F8B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5C5F6E21F1BB346001DA830 /* Build configuration list for PBXNativeTarget "WorldPainterTests" */;
 			buildPhases = (
+				272AEF08ED34AEC888FB7FF2 /* [CP] Check Pods Manifest.lock */,
 				B5C5F6C71F1BB346001DA830 /* Sources */,
 				B5C5F6C81F1BB346001DA830 /* Frameworks */,
 				B5C5F6C91F1BB346001DA830 /* Resources */,
+				5C9A18D3CD9CFD238340D916 /* [CP] Embed Pods Frameworks */,
+				68673011A13A644A1043EF26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5C5F6E51F1BB346001DA830 /* Build configuration list for PBXNativeTarget "WorldPainterUITests" */;
 			buildPhases = (
+				BC9DED9C2BA45175433B2802 /* [CP] Check Pods Manifest.lock */,
 				B5C5F6D21F1BB346001DA830 /* Sources */,
 				B5C5F6D31F1BB346001DA830 /* Frameworks */,
 				B5C5F6D41F1BB346001DA830 /* Resources */,
+				7E35BC87FB04ED427D18089E /* [CP] Embed Pods Frameworks */,
+				6504188F0B5E9B4C521BB5C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,7 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5C5F6C51F1BB346001DA830 /* LaunchScreen.storyboard in Resources */,
+				B5C5F6E91F1BEEEB001DA830 /* Models.scnassets in Resources */,
 				B5C5F6C21F1BB346001DA830 /* Assets.xcassets in Resources */,
+				B5C5F6F01F1C4631001DA830 /* resize.png in Resources */,
+				B5C5F6EC1F1C3888001DA830 /* paintbrush.png in Resources */,
+				B5C5F6EE1F1C38EE001DA830 /* paintpallete.png in Resources */,
 				B5C5F6C01F1BB346001DA830 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +323,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		160851C617B61DB9A85CAD86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		272AEF08ED34AEC888FB7FF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C9A18D3CD9CFD238340D916 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorldPainterTests/Pods-WorldPainterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6504188F0B5E9B4C521BB5C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorldPainterUITests/Pods-WorldPainterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68673011A13A644A1043EF26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorldPainterTests/Pods-WorldPainterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E35BC87FB04ED427D18089E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorldPainterUITests/Pods-WorldPainterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91F4B6B3B3E8820451A81B61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorldPainter/Pods-WorldPainter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC9DED9C2BA45175433B2802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E066D83D69CAD92AA4274F8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorldPainter/Pods-WorldPainter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B5C5F6B31F1BB346001DA830 /* Sources */ = {
@@ -421,6 +632,7 @@
 		};
 		B5C5F6E01F1BB346001DA830 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F259957D0054F2709D5005D /* Pods-WorldPainter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9BD5CYJ2VD;
@@ -435,6 +647,7 @@
 		};
 		B5C5F6E11F1BB346001DA830 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC8EEE8276B18D5871BA372 /* Pods-WorldPainter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9BD5CYJ2VD;
@@ -449,6 +662,7 @@
 		};
 		B5C5F6E31F1BB346001DA830 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2176AE7D7DF9DFAE936FDDF /* Pods-WorldPainterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -465,6 +679,7 @@
 		};
 		B5C5F6E41F1BB346001DA830 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B058B4067F2832EB76D2C526 /* Pods-WorldPainterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,6 +696,7 @@
 		};
 		B5C5F6E61F1BB346001DA830 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9C3874956A16E4147E488C /* Pods-WorldPainterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9BD5CYJ2VD;
@@ -496,6 +712,7 @@
 		};
 		B5C5F6E71F1BB346001DA830 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143D99C4AF9CD32550F7E48E /* Pods-WorldPainterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9BD5CYJ2VD;
@@ -528,6 +745,7 @@
 				B5C5F6E11F1BB346001DA830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5C5F6E21F1BB346001DA830 /* Build configuration list for PBXNativeTarget "WorldPainterTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +754,7 @@
 				B5C5F6E41F1BB346001DA830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5C5F6E51F1BB346001DA830 /* Build configuration list for PBXNativeTarget "WorldPainterUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +763,7 @@
 				B5C5F6E71F1BB346001DA830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
